@@ -1,0 +1,107 @@
+.App {
+  background-color: turquoise;
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding:1%;
+}
+
+
+.App-header {
+  background-color: tomato;
+  border: 5px solid navy;
+  width:70%;
+  height:100vh;
+  font-size:1.8rem;
+  padding-bottom:10px;
+  margin-left: 15%;
+  cursor: pointer;
+  text-align: center;
+}
+
+
+
+.title {
+  font-size:2.5rem;
+  color: navy;
+  background-color: seagreen;
+  width:100%;
+  text-align:center
+
+
+}
+
+@media only screen and (max-width: 500px) {
+  .title {
+    font-size:1.5rem;
+    height:80px;
+  }
+}
+
+input {
+  width:50%;
+  height:25px; 
+  background: white;
+  font-size:20px;
+  color: blue;
+  border: 2px solid darkblue;
+  margin-top: 0 auto;
+  border-radius:10px;
+  padding-left:1%;
+  }
+
+
+
+
+button {
+  padding: 1% 1%;
+  font-size: 20px;
+  background: blue;
+  color: white;
+  border: 3px solid darkred;
+  border-radius: 15px;
+  margin-left: 5%
+}
+
+button:hover {
+  background-color:transparent;
+}
+
+
+.completed {
+  font-size: 20px;
+
+}
+
+
+.displayTask {
+
+  border: 3px solid blue;
+  margin-bottom:3%;
+  margin-top: 5%;
+  background-color:steelblue;
+  text-align: center;
+}
+
+
+@media only screen and (max-width: 500px) {
+  .inputButtons {
+    display:flex;
+    flex-flow:column;
+    align-items:center;
+  }
+  input {
+    width:90%;
+    margin-bottom:10px;
+  }
+
+  button {
+    margin-bottom:10px;
+    width:70%;
+  }
+  .displayTask {
+    font-size:1.2rem;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
